@@ -7,6 +7,7 @@ book:
     - index.qmd   # Home or introduction
     - about.qmd    # About section
     - introduction.qmd
+    - Portfolio.qmd
     # Add more chapters here as needed
 
 website:
