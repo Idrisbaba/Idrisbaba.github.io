@@ -1,0 +1,17 @@
+---
+title: "Temperature"
+format: html
+editor: visual
+---
+
+## Temperature:
+
+**Summary:**
+
+**Independent thought:** **limitations:**
+
+**Comment:**
+
+## Application:
+
+## Reflection

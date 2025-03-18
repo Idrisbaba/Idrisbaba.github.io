@@ -22,7 +22,11 @@ jobs:
         with:
           r-version: '4.2.0'
 
-      - name: Install R Dependencies
+      - name: Install additional R dependencies
+        run: |
+          Rscript -e 'install.packages(c("quarto", "bookdown"))'
+
+      - name: Install R Dependencies (renv)
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
@@ -30,6 +34,10 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: gh-pages
+          target: ./docs
+          project: ./  # Adjust path if your project.yaml is in a subdirectory
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: List generated files
+        run: ls -la

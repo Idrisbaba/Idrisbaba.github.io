@@ -1,0 +1,18 @@
+---
+title: "GEE"
+author: "Idris Baba"
+format: html
+editor: visual
+---
+
+## Google Earth Engine: 
+
+**Summary:**
+
+**Independent thought:** **limitations:**
+
+**Comment:**
+
+## Application:
+
+## Reflection

@@ -5,24 +5,49 @@ project:
 book:
   chapters:
     - index.qmd   # Home or introduction
-    - about.qmd    # About section
+    - about.qmd   # About section
     - introduction.qmd
     - Portfolio.qmd
-    # Add more chapters here as needed
+    - Corrections.qmd  # Corrections section
+    - Policy.qmd
+    - GEE.qmd
+    - Classification.qmd  # Classification section
+    - Temperature.qmd
+    - Sar.qmd
 
-website:
-  title: "Remotely Sensing Cities and Environments Learning Diary"
-  #author: Idris Baba
-  #image: general_images/casa_logo.jpg
-  #downloads: [qmd]
-  #cover-image: general_images/casa_logo.jpg
-  #date: r Sys.Date()
+  favicon: "assets/favicon.ico"
+  reader-mode: true
+
+#website:
+  #title: "Remotely Sensing Cities and Environments Learning Diary"
+ # author: "Idris Baba"
+ #image: "assets/casa_logo.jpg"
   #description: "The CASA0023 Remotely Sensing Cities and Environments practical book"
 
 format:
   html:
     theme:
-      light: cosmo     # Light theme
-      dark: brand      # Dark theme
-    css: styles.css
-    toc: true          # Table of contents enabled
+      light: [cosmo, flatly]
+      dark: [cosmo, darkly]
+    css: assets/style.css  # Updated path
+    toc: true
+
+navbar:
+  logo: "assets/casa_logo.jpg"
+  collapse: true
+  collapse-below: lg
+  background: light
+  search: true
+  right:
+    - icon: github
+
+sidebar:
+  title: "CASA0023"
+  style: floating
+  reader-mode: true
+
+repo-url: "https://github.com/Idrisbaba/Idrisbaba.github.io.git"
+repo-actions: [edit, issue]
+
+pdf:
+  documentclass: scrbook

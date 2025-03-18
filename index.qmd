@@ -1,44 +1,30 @@
-00000Idris Baba[^index-1]
 
-[^index-1]: The Bartlett Centre for Advanced Spatial Analysis, ucfniib\@ucl.ac.uk
+Idris Baba [^1]
 
-```{r}
-```
-
-Last updated: `r Sys.Date()`
+[^1]: The Bartlett Centre for Advanced Spatial Analysis, [ucfniib\@ucl.ac.uk](mailto:ucfniib@ucl.ac.uk)
 
 ## Welcome {.unnumbered}
 
-Hello <a href="https://www.ucl.ac.uk/bartlett/casa/"><img src="general_images/casa_logo.jpg" alt="CASA0023 course" width="120" align="right" style="margin: 0 1em 0 1em"/></a> and welcome to the Term 2 module Remotely Sensing Cities and Environments.
+Hello <a href="https://www.ucl.ac.uk/bartlett/casa/"><img src="assets/casa_logo.jpg" alt="CASA0023 course" width="120" align="right" style="margin: 0 1em 0 1em"/></a> and welcome to the Term 2 module Remotely Sensing Cities and Environments.
 
-This learning diary is part of the course taught at CASA in Term 2 MSc module, CASA00023, this website is a reflection of all the content of this module. [CASA00023 Remotely Sensing Cities and Environment](https://andrewmaclachlan.github.io/CASA0023) although these contents, are only the contents I find interesting and most beneficial for my career.
+This learning diary is part of the course taught at CASA in Term 2 MSc module, CASA00023. This website is a reflection of all the content of this module. [CASA00023 Remotely Sensing Cities and Environment](https://andrewmaclachlan.github.io/CASA0023), although these contents are only the ones I find interesting and most beneficial for my career.
 
 ## Intended course learning outcomes
 
-By the end of this module I will become familiar with these concepts:
+By the end of this module, I will become familiar with these concepts:
 
 -   Create a reproducible online **portfolio workbook**
-
--   Explain and evaluate common issues with urban and environmental policies at the local, national and international level that fail to consider spatial data
-
+-   Explain and evaluate common issues with urban and environmental policies at the local, national, and international level that fail to consider spatial data
 -   Revise vague and ambiguous development targets
-
 -   Appropriately pre-process Earth observation imagery ready for analysis
-
 -   Apply published methodologies to extract meaning from Earth observation data
-
--   Combine a variety of spatial data to demonstrate the benefits of data-informed governance and planning.
-
+-   Combine a variety of spatial data to demonstrate the benefits of data-informed governance and planning
 -   Create and design a reproducible workflow for consistent monitoring of urban and environmental metrics
-
--   Critique and optimise recently developed metropolitan climate mitigation strategies using appropriate spatial data, optimizing financial investment and environmental outcomes
+-   Critique and optimize recently developed metropolitan climate mitigation strategies using appropriate spatial data, optimizing financial investment and environmental outcomes
 
 ## Acknowledgement {.unnumbered}
 
-Thanks to **Andy** who inspired me to build this learning diary as part of my assessment, most of the styles and format is gotten from his repo :
+Thanks to **Andy**, who inspired me to build this learning diary as part of my assessment. Most of the styles and formats are adapted from his repository:
 
--   [Dr Andy Maclachlan](https://x.com/andymaclachlan),
-
-The R package and analysis used within this book has been inspired by [Andy](https://github.com/andrewmaclachlan),
-
-I've certainly learnt a lot from his open code repository!
+-   [Dr Andy Maclachlan](https://x.com/andymaclachlan)
+-   The R package and analysis used within this book has been inspired by [Andy’s open repository](https://github.com/andrewmaclachlan). I've certainly learned a lot from it!
