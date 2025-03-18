@@ -1,21 +1,27 @@
 project:
-  type: website
+  type: book
+  output-dir: docs
+
+book:
+  chapters:
+    - index.qmd   # Home or introduction
+    - about.qmd    # About section
+    - introduction.qmd
+    # Add more chapters here as needed
 
 website:
-  title: "Idrisbaba.github.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Remotely Sensing Cities and Environments Learning Diary"
+  #author: Idris Baba
+  #image: general_images/casa_logo.jpg
+  #downloads: [qmd]
+  #cover-image: general_images/casa_logo.jpg
+  #date: r Sys.Date()
+  #description: "The CASA0023 Remotely Sensing Cities and Environments practical book"
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: cosmo     # Light theme
+      dark: brand      # Dark theme
     css: styles.css
-    toc: true
-
-
-
+    toc: true          # Table of contents enabled

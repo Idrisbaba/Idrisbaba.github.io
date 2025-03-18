@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Welcome\nIdris Baba1\nLast updated: 2025-03-18\nHello  and welcome to the Term 2 module Remotely Sensing Cities and Environments.\nThis learning diary is part of the course taught at CASA in Term 2 MSc module, CASA00023, this website is a reflection of all the content of this module. CASA00023 Remotely Sensing Cities and Environment although these contents, are only the contents I find interesting and most beneficial for my career.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "1  A brief introduction about me",
+    "section": "",
+    "text": "Hi Readers, I’m Idris Baba.\nWelcome to my learning diary, where I share insights and discoveries from the “Remotely Sensing Cities and Environments” module, which is part of the Master of Urban Spatial Science program at Center for advanced Spatial analysis (CASA) at University College London, delivered by Andy Maclachlan. This journey began with my realization of the growing need of programming skills in geographical data science. To bridge this gap, I decided to embark on this master’s program, aiming to blend my GIS expertise with advanced programming skills to meet the demands of the evolving geospatial industry.\nThis module is particularly relevant to my professional career, given my background in geography from my undergraduate studies. My career has largely revolved around remotely sensed data. I started as a junior GIS specialist at a state government office, focusing on cadastral mapping. Soon after that, I took on a voluntary humanitarian role as a GIS technician, creating maps for various humanitarian purposes. My career took a significant leap when I joined the multinational highway feasibility project for the Abidjan-Lagos Corridor within West African sub-region, covering five major West African countries.\nAlthough I’m still new to the time I wrote this course, I find every bit of the topics being taught to be really interesting and highly relevant to my past experiences. The principles of earth observation are not only applicable to my professional work but also to the non-governmental organization I co-founded. Our main aim is to tackle the evolving issues of climate change, and I believe these principles I’m learning can be instrumental in providing early warning signs and solutions.\nMoreover, I realized that this course could address many of the data accessibility issues we encounter during the preliminary stage of feasibility studies in construction projects. It has the capability of enhancing the accuracy of most of the analyses we conduct, and this can also reduce the time required to produce high-quality reports. Considering the challenges of data accessibility in Nigeria, a third-world country, remote sensing approaches offer promising solutions.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>A brief introduction about me</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#intended-course-learning-outcomes",
+    "href": "about.html#intended-course-learning-outcomes",
+    "title": "A brief introduction about me",
+    "section": "",
+    "text": "By the end of this module I will become familiar with these concepts:\n\nCreate a reproducible online portfolio workbook\nExplain and evaluate common issues with urban and environmental policies at the local, national and international level that fail to consider spatial data\nRevise vague and ambiguous development targets\nAppropriately pre-process Earth observation imagery ready for analysis\nApply published methodologies to extract meaning from Earth observation data\nCombine a variety of spatial data to demonstrate the benefits of data-informed governance and planning.\nCreate and design a reproducible workflow for consistent monitoring of urban and environmental metrics\nCritique and optimise recently developed metropolitan climate mitigation strategies using appropriate spatial data, optimizing financial investment and environmental outcomes"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Remotely Sensing Cities and Environments Learning Daiary",
+    "section": "Welcome",
+    "text": "Welcome\nHello  and welcome to the Term 2 module Remotely Sensing Cities and Environments.\nThis learning diary is part of the course taught at CASA in Term 2 MSc module, CASA00023, this website is a reflection of all the content of this module. CASA00023 Remotely Sensing Cities and Environment although these contents, are only the contents I find interesting and most beneficial for my career."
+  },
+  {
+    "objectID": "index.html#acknowledgement",
+    "href": "index.html#acknowledgement",
+    "title": "",
+    "section": "Acknowledgement",
+    "text": "Acknowledgement\nThanks to Andy who inspired me to build this learning diary as part of my assessment, most of the styles and format is gotten from his repo :\n\nDr Andy Maclachlan,\n\nThe R package and analysis used within this book has been inspired by Andy,\nI’ve certainly learnt a lot from his open code repository!",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "",
+    "section": "",
+    "text": "The Bartlett Centre for Advanced Spatial Analysis, ucfniib@ucl.ac.uk↩︎",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#intended-course-learning-outcomes",
+    "href": "index.html#intended-course-learning-outcomes",
+    "title": "",
+    "section": "Intended course learning outcomes",
+    "text": "Intended course learning outcomes\nBy the end of this module I will become familiar with these concepts:\n\nCreate a reproducible online portfolio workbook\nExplain and evaluate common issues with urban and environmental policies at the local, national and international level that fail to consider spatial data\nRevise vague and ambiguous development targets\nAppropriately pre-process Earth observation imagery ready for analysis\nApply published methodologies to extract meaning from Earth observation data\nCombine a variety of spatial data to demonstrate the benefits of data-informed governance and planning.\nCreate and design a reproducible workflow for consistent monitoring of urban and environmental metrics\nCritique and optimise recently developed metropolitan climate mitigation strategies using appropriate spatial data, optimizing financial investment and environmental outcomes",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "2  Getting started with remote sensing",
+    "section": "",
+    "text": "2.1 Application:\nSummary: In week one, I was introduced to the concept of remote sensing, electromagnetic radiation, wavelength, spectral signature, sensors, data exploration, and then different applications of remote sensing, and lastly, I was introduced to different types of remote sensing images such as Landsat and sentinel imagery.\nIndependent thought: I find the spectral signature interesting because I believe this could be applied in bare soil to have a rough idea of the components of that area, more like a preliminary approach to learning something within a particular area. Like in the case of planning you can know\nlimitations:\nTCT, which stands for tassle cap transformation which I find very interesting and quite related to the topics covered in this week. The paper used Tassle cap transformation methodology to monitor forest vegetation and detect changes in the forest cover from a natural park in Bulgaria. Tasseled Cap Transformation (TCT) methodology was applied using Sentinel-2 satellite images, resulting in three components: “brightness,” “greenness,” and “wetness. They used the”greenness” component to calculate the Normalized Differential Greenness Index (NDGI), and these provides data on forest vegetation dynamics over short and long-term periods (Andrey Stoyanov, 2022) . The study provided detailed maps showing changes in vegetation over different periods, highlighting areas of positive and negative changes. While this, which contrasts with the first paper, used Landsat 8 images to measure rice production at Al-Najaf in the middle south of Iraq, where they intended to qunatify the amount of rice being produces, and have some kind of accuracy in comparison to the information given by government of iran in force of food security. A new classification method using the Tasseled Cap Transformation (TCT) using Landsat-8 imagery (Saleh Ali, 2016)\nSummary: https://quarto.org.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting started with remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#running-code",
+    "href": "introduction.html#running-code",
+    "title": "2  Getting started with remote sensing",
+    "section": "2.2 Running Code",
+    "text": "2.2 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting started with remote sensing</span>"
+    ]
+  }
+]
