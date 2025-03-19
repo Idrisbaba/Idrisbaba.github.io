@@ -34,10 +34,10 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: ./docs
-          project: ./  # Adjust path if your project.yaml is in a subdirectory
+          target: ./docs  # Adjust this if using a different output folder
+          project: ./      # Adjust if _quarto.yml is in a subdirectory
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: List generated files
-        run: ls -la
+        run: ls -la docs  # Ensure correct output folder is being checked
