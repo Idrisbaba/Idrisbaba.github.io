@@ -5,9 +5,9 @@ project:
 book:
   chapters:
     - index.qmd   # Home or introduction
-    - about.qmd   # About section
-    - introduction.qmd
-    - portfolio.qmd
+    - About.qmd   # About section
+    - Introduction.qmd
+    - Portfolio.qmd
     - Corrections.qmd  # Corrections section
     - Policy.qmd
     - GEE.qmd
