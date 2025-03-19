@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.6.40" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2  Getting started with remote sensing</title>
+<title>2&nbsp; Getting started with remote sensing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +22,28 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Portfolio.html" rel="next">
+<link href="./About.html" rel="prev">
+<link href="./assets/favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3bb45255e9183b015e767746b096dd9e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e05d0a0047f556f31b1ed3e4fb9565a8.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -54,25 +73,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="assets/style.css" />
+<link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body>
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn"
-      data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" 
-      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" role="link"
-        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Introduction.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting started with remote sensing</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -101,78 +115,85 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/About.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>1</span>  <span class='chapter-title'>A brief introduction about me</span></span></a>
+  <a href="./About.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">A brief introduction about me</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/Introduction.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class='chapter-number'>2</span>  <span class='chapter-title'>Getting started with remote sensing</span></span></a>
+  <a href="./Introduction.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting started with remote sensing</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/Portfolio.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>3</span>  <span class='chapter-title'>Portfolio</span></span></a>
+  <a href="./Portfolio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Portfolio</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/Corrections.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span></span></a>
+  <a href="./Corrections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Corrections</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/Policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>5</span>  <span class='chapter-title'>Policy:</span></span></a>
+  <a href="./Policy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Policy:</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/GEE.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>6</span>  <span class='chapter-title'>Google Earth Engine:</span></span></a>
+  <a href="./GEE.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Google Earth Engine:</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/Classification.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>7</span>  <span class='chapter-title'>Classification:</span></span></a>
+  <a href="./Classification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification:</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/Temperature.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature:</span></span></a>
+  <a href="./Temperature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature:</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/Sar.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class='chapter-number'>9</span>  <span class='chapter-title'>SAR:</span></span></a>
+  <a href="./Sar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SAR:</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#application" id="toc-application" class="nav-link active" data-scroll-target="#application"><span class="header-section-number">2.1</span> Application:</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">2.2</span> Reflection</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting started with remote sensing</span></h1>
 </div>
 
 
@@ -188,37 +209,26 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#application" id="toc-application"><span class="header-section-number">2.1</span> Application:</a></li>
-  <li><a href="#reflection" id="toc-reflection"><span class="header-section-number">2.2</span> Reflection</a></li>
-  </ul>
-</nav>
-<p><strong>Summary:</strong> In week one, I was introduced to the concept of remote sensing, electromagnetic radiation, wavelength, spectral signature, sensors, data exploration, and then different applications of remote sensing, and lastly, I was introduced to different types of remote sensing images such as Landsat and sentinel imagery.</p>
+
+<p><strong>Summary:</strong> In week one, I was introduced to the concept of remote sensing, electromagnetic radiation, wavelength, spectral signature, sensors, data&nbsp;exploration,&nbsp;and then different applications of remote sensing, and lastly, I was introduced to different types of remote sensing images such as Landsat and sentinel imagery.</p>
 <p><strong>Independent thought:</strong> I find the spectral signature interesting because I believe this could be applied in bare soil to have a rough idea of the components of that area, more like a preliminary approach to learning something within a particular area. Like in the case of planning you can know</p>
 <p><strong>limitations:</strong></p>
 <p><strong>Comment:</strong></p>
 <section id="application" class="level2" data-number="2.1">
-<h2 data-number="2.1"><span class="header-section-number">2.1</span> Application:</h2>
+<h2 data-number="2.1" class="anchored" data-anchor-id="application"><span class="header-section-number">2.1</span> Application:</h2>
 <p>TCT, which stands for tassle cap transformation which I find very interesting and quite related to the topics covered in this week. The paper used Tassle cap transformation methodology to monitor forest vegetation and detect changes in the forest cover from a natural park in Bulgaria. Tasseled Cap Transformation (TCT) methodology was applied using Sentinel-2 satellite images, resulting in three components: “brightness,” “greenness,” and “wetness. They used the”greenness” component to calculate the Normalized Differential Greenness Index (NDGI), and these provides data on forest vegetation dynamics over short and long-term periods (Andrey Stoyanov, 2022) . The study provided detailed maps showing changes in vegetation over different periods, highlighting areas of positive and negative changes. While this, which contrasts with the first paper, used Landsat 8 images to measure rice production at Al-Najaf in the middle south of Iraq, where they intended to qunatify the amount of rice being produces, and have some kind of accuracy in comparison to the information given by government of iran in force of food security. A new classification method using the Tasseled Cap Transformation (TCT) using Landsat-8 imagery (Saleh Ali, 2016)</p>
 <p>Summary: <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
 </section>
 <section id="reflection" class="level2" data-number="2.2">
-<h2 data-number="2.2"><span class="header-section-number">2.2</span> Reflection</h2>
+<h2 data-number="2.2" class="anchored" data-anchor-id="reflection"><span class="header-section-number">2.2</span> Reflection</h2>
 <p>By the end of week one, I found that some of the concepts introduced were familiar to me, while others were completely new. I was able to understand the distinct characteristics of Landsat and Sentinel imagery—specifically, that Sentinel images have a higher resolution of 10 meters, whereas Landsat imagery is limited to 30 meters.</p>
 <p>I also came to appreciate the benefits of the Tasseled Cap Transformation, a technique founded on the principles of greenness, wetness, and brightness. Originally developed by R.J. Kauth and G.S. Thomas in 1976 using Landsat satellite data, this method holds great potential for monitoring changes in forest cover. Furthermore, I believe this approach could be widely adopted by governments, non-governmental organizations, and policymakers to support ecosystem restoration efforts, which are crucial in addressing climate change.</p>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl"><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU="><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uZXh0"><span class="chapter-number">3</span>  <span class="chapter-title">Portfolio</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1wcmV2"><span class="chapter-number">1</span>  <span class="chapter-title">A brief introduction about me</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9pbmRleC5odG1sV2VsY29tZQ==">Welcome</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9BYm91dC5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz4xPC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPkEtYnJpZWYtaW50cm9kdWN0aW9uLWFib3V0LW1lPC9zcGFuPg=="><span class="chapter-number">1</span>  <span class="chapter-title">A brief introduction about me</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9JbnRyb2R1Y3Rpb24uaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+Mjwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5HZXR0aW5nLXN0YXJ0ZWQtd2l0aC1yZW1vdGUtc2Vuc2luZzwvc3Bhbj4="><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9Qb3J0Zm9saW8uaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+Mzwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5Qb3J0Zm9saW88L3NwYW4+"><span class="chapter-number">3</span>  <span class="chapter-title">Portfolio</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9Db3JyZWN0aW9ucy5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz40PC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPkNvcnJlY3Rpb25zPC9zcGFuPg=="><span class="chapter-number">4</span>  <span class="chapter-title">Corrections</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9Qb2xpY3kuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+NTwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5Qb2xpY3k6PC9zcGFuPg=="><span class="chapter-number">5</span>  <span class="chapter-title">Policy:</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9HRUUuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+Njwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5Hb29nbGUtRWFydGgtRW5naW5lOjwvc3Bhbj4="><span class="chapter-number">6</span>  <span class="chapter-title">Google Earth Engine:</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9DbGFzc2lmaWNhdGlvbi5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz43PC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPkNsYXNzaWZpY2F0aW9uOjwvc3Bhbj4="><span class="chapter-number">7</span>  <span class="chapter-title">Classification:</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9UZW1wZXJhdHVyZS5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz44PC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPlRlbXBlcmF0dXJlOjwvc3Bhbj4="><span class="chapter-number">8</span>  <span class="chapter-title">Temperature:</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9TYXIuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+OTwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5TQVI6PC9zcGFuPg=="><span class="chapter-number">9</span>  <span class="chapter-title">SAR:</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWJyZWFkY3J1bWJzLTxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+Mjwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5HZXR0aW5nLXN0YXJ0ZWQtd2l0aC1yZW1vdGUtc2Vuc2luZzwvc3Bhbj4="><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ=="><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU="><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl"><span class="chapter-number">2</span>  <span class="chapter-title">Getting started with remote sensing</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
-</div>
+
+
 </section>
 
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -781,18 +791,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a  href="/About.html" class="pagination-link" aria-label="A brief introduction about me">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class='chapter-number'>1</span>  <span class='chapter-title'>A brief introduction about me</span></span>
+      <a href="./About.html" class="pagination-link" aria-label="A brief introduction about me">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">A brief introduction about me</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a  href="/Portfolio.html" class="pagination-link" aria-label="Portfolio">
-        <span class="nav-page-text"><span class='chapter-number'>3</span>  <span class='chapter-title'>Portfolio</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Portfolio.html" class="pagination-link" aria-label="Portfolio">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Portfolio</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+</body></html>
