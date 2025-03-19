@@ -7,7 +7,7 @@ book:
     - index.qmd   # Home or introduction
     - about.qmd   # About section
     - introduction.qmd
-    - Portfolio.qmd
+    - portfolio.qmd
     - Corrections.qmd  # Corrections section
     - Policy.qmd
     - GEE.qmd

@@ -92,5 +92,145 @@
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting started with remote sensing</span>"
     ]
+  },
+  {
+    "objectID": "Classification.html",
+    "href": "Classification.html",
+    "title": "7  Classification:",
+    "section": "",
+    "text": "7.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification:</span>"
+    ]
+  },
+  {
+    "objectID": "Classification.html#reflection",
+    "href": "Classification.html#reflection",
+    "title": "7  Classification:",
+    "section": "7.3 Reflection",
+    "text": "7.3 Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification:</span>"
+    ]
+  },
+  {
+    "objectID": "Sar.html",
+    "href": "Sar.html",
+    "title": "9  SAR:",
+    "section": "",
+    "text": "9.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SAR:</span>"
+    ]
+  },
+  {
+    "objectID": "Sar.html#reflection",
+    "href": "Sar.html#reflection",
+    "title": "9  SAR:",
+    "section": "9.2 Reflection",
+    "text": "9.2 Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SAR:</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html",
+    "href": "Corrections.html",
+    "title": "4  Corrections",
+    "section": "",
+    "text": "4.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html#reflection",
+    "href": "Corrections.html#reflection",
+    "title": "4  Corrections",
+    "section": "4.2 Reflection",
+    "text": "4.2 Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "Classification.html#application-1",
+    "href": "Classification.html#application-1",
+    "title": "7  Classification:",
+    "section": "7.2 Application:",
+    "text": "7.2 Application:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Classification:</span>"
+    ]
+  },
+  {
+    "objectID": "GEE.html",
+    "href": "GEE.html",
+    "title": "6  Google Earth Engine:",
+    "section": "",
+    "text": "6.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Google Earth Engine:</span>"
+    ]
+  },
+  {
+    "objectID": "GEE.html#reflection",
+    "href": "GEE.html#reflection",
+    "title": "6  Google Earth Engine:",
+    "section": "6.2 Reflection",
+    "text": "6.2 Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Google Earth Engine:</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature.html",
+    "href": "Temperature.html",
+    "title": "8  Temperature:",
+    "section": "",
+    "text": "8.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature:</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature.html#reflection",
+    "href": "Temperature.html#reflection",
+    "title": "8  Temperature:",
+    "section": "8.2 Reflection",
+    "text": "8.2 Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature:</span>"
+    ]
+  },
+  {
+    "objectID": "Policy.html",
+    "href": "Policy.html",
+    "title": "5  Policy:",
+    "section": "",
+    "text": "5.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Policy:</span>"
+    ]
+  },
+  {
+    "objectID": "Policy.html#reflection",
+    "href": "Policy.html#reflection",
+    "title": "5  Policy:",
+    "section": "5.2 Reflection",
+    "text": "5.2 Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Policy:</span>"
+    ]
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "3  Portfolio",
+    "section": "",
+    "text": "3.1 Running Code\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n1 + 1\n\n[1] 2\nYou can add options to executable code like this\n[1] 4\nThe echo: false option disables the printing of code (only output is displayed).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Portfolio</span>"
+    ]
   }
 ]

@@ -1,11 +1,4 @@
----
-title: "Policy"
-author: "Idris Baba"
-format: html
-editor: visual
----
-
-## Policy: 
+## Policy:
 
 **Summary:**
 

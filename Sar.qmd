@@ -1,9 +1,3 @@
----
-title: "Sar"
-format: html
-editor: visual
----
-
 ## SAR:
 
 **Summary:**

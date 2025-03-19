@@ -1,9 +1,3 @@
----
-title: "Temperature"
-format: html
-editor: visual
----
-
 ## Temperature:
 
 **Summary:**
