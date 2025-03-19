@@ -1,0 +1,15 @@
+{
+  "hash": "dfb5aa83409b7a8a5bbfaeaded460e76",
+  "result": {
+    "engine": "knitr",
+    "markdown": "Idris Baba[^index-1]\n\n[^index-1]: The Bartlett Centre for Advanced Spatial Analysis, ucfniib\\@ucl.ac.uk\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\nLast updated: 2025-03-18\n\n## Welcome {.unnumbered}\n\nHello <a href=\"https://www.ucl.ac.uk/bartlett/casa/\"><img src=\"general_images/casa_logo.jpg\" alt=\"CASA0023 course\" width=\"120\" align=\"right\" style=\"margin: 0 1em 0 1em\"/></a> and welcome to the Term 2 module Remotely Sensing Cities and Environments.\n\nThis learning diary is part of the course taught at CASA in Term 2 MSc module, CASA00023, this website is a reflection of all the content of this module. [CASA00023 Remotely Sensing Cities and Environment](https://andrewmaclachlan.github.io/CASA0023) although these contents, are only the contents I find interesting and most beneficial for my career.\n\n## Intended course learning outcomes\n\nBy the end of this module I will become familiar with these concepts:\n\n-   Create a reproducible online **portfolio workbook**\n\n-   Explain and evaluate common issues with urban and environmental policies at the local, national and international level that fail to consider spatial data\n\n-   Revise vague and ambiguous development targets\n\n-   Appropriately pre-process Earth observation imagery ready for analysis\n\n-   Apply published methodologies to extract meaning from Earth observation data\n\n-   Combine a variety of spatial data to demonstrate the benefits of data-informed governance and planning.\n\n-   Create and design a reproducible workflow for consistent monitoring of urban and environmental metrics\n\n-   Critique and optimise recently developed metropolitan climate mitigation strategies using appropriate spatial data, optimizing financial investment and environmental outcomes\n\n## Acknowledgement {.unnumbered}\n\nThanks to **Andy** who inspired me to build this learning diary as part of my assessment, most of the styles and format is gotten from his repo :\n\n-   [Dr Andy Maclachlan](https://x.com/andymaclachlan),\n\nThe R package and analysis used within this book has been inspired by [Andy](https://github.com/andrewmaclachlan),\n\nI've certainly learnt a lot from his open code repository!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

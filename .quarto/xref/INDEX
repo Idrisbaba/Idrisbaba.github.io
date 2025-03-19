@@ -1,0 +1,45 @@
+{
+  "index.qmd": {
+    "index.html": "9c42030f"
+  },
+  "about.qmd": {
+    "about.html": "fd747264"
+  },
+  "introduction.qmd": {
+    "introduction.html": "9832b802"
+  },
+  "Portfolio.qmd": {
+    "Portfolio.html": "46e0b81a",
+    "portfolio.html": "389d2c12"
+  },
+  "Corrections.qmd": {
+    "Corrections.html": "ff42b558"
+  },
+  "Policy.qmd": {
+    "Policy.html": "9ddfd1a2"
+  },
+  "GEE.qmd": {
+    "GEE.html": "5d095107"
+  },
+  "Classification.qmd": {
+    "Classification.html": "2e000db1"
+  },
+  "Temperature.qmd": {
+    "Temperature.html": "ed3770e2"
+  },
+  "Sar.qmd": {
+    "Sar.html": "41539435"
+  },
+  "portfolio.qmd": {
+    "Portfolio.html": "327eb4f3",
+    "portfolio.html": "9abf23a3"
+  },
+  "About.qmd": {
+    "about.html": "185aba5d",
+    "About.html": "ab766f96"
+  },
+  "Introduction.qmd": {
+    "introduction.html": "bbd6b19a",
+    "Introduction.html": "cdac7ce8"
+  }
+}
