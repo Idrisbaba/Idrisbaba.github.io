@@ -34,12 +34,12 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: ./docs # Ensure the output matches the updated Quarto directory
-          project: ./     # Root directory containing _quarto.yml
+          target: ./docs  # Ensure the output matches the updated Quarto directory
+          path: ./        # Specify the Quarto project root directory (replace 'project' with 'path')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Verify Output Files
         run: |
           echo "Listing generated files in the 'docs' directory:"
-          ls -la docs    # Ensure that the correct directory and files are present
+          ls -la docs     # Ensure the correct directory and files are present
