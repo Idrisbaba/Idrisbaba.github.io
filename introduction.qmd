@@ -1,3 +1,8 @@
+---
+title: "Introduction"
+---
+
+
 ## Introduction
 
 **Summary:** this week I was introduced to remote sensing and different concept of remote sensing, starting from electromagnetic spectrum, radiation, wavelength, spectral signature, sensors, data exploration, and then different applications of remote sensing, and lastly, I was introduced to different types of remotely sensed images such as Landsat and sentinel imagery.
