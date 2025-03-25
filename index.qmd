@@ -1,7 +1,6 @@
+Idris Baba [^index-1]
 
-Idris Baba [^1]
-
-[^1]: The Bartlett Centre for Advanced Spatial Analysis, [ucfniib\@ucl.ac.uk](mailto:ucfniib@ucl.ac.uk)
+[^index-1]: The Bartlett Centre for Advanced Spatial Analysis, [ucfniib\@ucl.ac.uk](mailto:ucfniib@ucl.ac.uk)
 
 ## Welcome {.unnumbered}
 
