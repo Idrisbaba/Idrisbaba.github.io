@@ -17,3 +17,7 @@ Additionally, the lectures covered various classification methodologies, such as
 ## 
 
 ## Reflection
+
+By the end of this week, I was kind of able to develop a solid understanding of the concepts that were introduced. this actually reminded of a previous experience where I conducted a classification for an environmental impact project. It took me about a week to classify the region of interest using QGIS, alternating between overlays of Bing Map and OpenStreetMap. Reflecting on this, I can confidently say that I will definitely use the classification methods I learned this week, as I believe they will significantly reduce the amount of time and effort required for similar tasks in the future. once you take samples everything get generated or you whereas for unsupervised you just need to allow the system carry out the task for you.
+
+Additionally, I found that engaging with the practical aspects of classification was much easier than grasping the theoretical concepts at first. The hands-on experience really helped solidify my understanding
