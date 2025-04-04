@@ -1,11 +1,35 @@
 ## SAR:
 
-**Summary:**
+**Summary:** this week kicked off by exploring two components, which is basically SAR Fundamentals and Practical Change detection with SAR. SAR stand for sytnthetic aperture radar
 
-**Independent thought:** **limitations:**
+Synthetic aperture radar (SAR) is a type of active data collection where an instrument sends out a pulse of energy and then records the amount of that energy reflected back after it interacts with Earth. Unlike optical imagery, which is a passive data collection technique based on emitted energy, SAR imagery is created from the reaction of an emitted pulse of energy with physical structures (like mountains, forests, and sea ice) and conditions like soil moisture. SAR has been used in a wide range of applications, including studying Antarctic icebergs, tracking the paths of oil spills into sensitive marshes, and mapping the wetlands of Alaska
+
+**How SAR Images the World** SARs transmit microwave signals at an oblique angle and measure the backscattered (in the direction of the sensor) portion of this signal in order to analyze features on the surface. Mathematically, this (calibrated) measurement is described using the term Radar Cross Section (RCS) σ, which is defined as the ratio between the incident and received signal intensity:
+
+**Independent thought:**
+
+I found the Synthetic Aperture Radar to be quite interesting, which can provide detailed information about surface of the earth, from what I understood with SAR Image is it makes use of the microwave region from the electromagnetic spectrum or wavelength, these wavelength are usually longer than infrared but, but then shorter than radio waves, these belong to the active sensors, which makes the sensors very independent having full control of its processes, I also learn that these sensors capture from oblique angle, whereby if you intend on using the image you have to go through different correction methodology, some of the benefits of SAR is that they can be able to penetrate cloud cover and collect images of the earth surface, so these is not a challenge for SAR, also it doesn't need any light as energy to function which is for the fact that it has an active sensor..
+
+**limitations:**
 
 **Comment:**
 
 ## Application:
 
+SAR were used for different applications, SAR (Synthetic Aperture Radar) is used in many places to help with disasters. For example, in Bangladesh, it helps monitor floods and plan evacuations. In Japan, after the 2011 earthquake and tsunami, SAR was used to see the damage and plan rebuilding. In California, it helps track wildfires, even through smoke. And in Italy, SAR monitors landslide areas to give early warnings. making earthquake displacement InSAR was first applied to map the ground surface displacement caused by the 1992 Landers earthquake (Massonnet and Feigl, 1998). Using a pair of SAR images, one before the earthquake and the other after the earthquake, early research focused on mapping the co-seismic deformation with InSAR. Surface displacement data are extraordinarily useful for understanding slip distribution and rupture dynamics during earthquakes, and InSAR has made an indispensable contribution to seismology by providing earthquake location, fault geometry and rupture dynamics from the measured co-seismic deformation field. In the late 1990s, studies using InSAR to map ground surface deformation immediately after an earthquake (i.e., post-seismic deformation) yielded important clues to infer the properties of the Earth’s crust and upper mantle. Mapping ground surface deformation during volcanic eruptions Early studies used SAR data acquired before and after a volcanic eruption to image the co-eruptive deformation. Surface deformation data from InSAR can provide essential information about magma dynamics. In the late 1990s, InSAR was used to map the deformation of volcanoes during quiescent periods. InSAR-derived surface deformation patterns shed important insights into the structure, plumbing, and state of restless volcanoes, and can be the first sign of increasing levels of volcanic activity, preceding swarms of earthquakes or other precursors that signal impending intrusions or eruptions (Lu, 2007)
+
 ## Reflection
+
+## Benefits and Challenges of Synthetic Aperture Radar (SAR)
+
+Synthetic Aperture Radar (SAR) is an incredibly powerful tool with applications in areas such as flooding and earthquakes. For example, the U.S. upgraded its F22 aircraft to include SAR Imaging in July 2017 ([source](https://www.coherentmarketinsights.com/market-insight/synthetic-aperture-radar-market-610)). SAR's capability to operate unaffected by weather, clouds, or rainfall makes it highly reliable.
+
+Despite its advantages, some of the terminologies and concepts associated with SAR can be ambiguous. In my research, I found that its use in many scenarios remains relatively unknown.
+
+### Challenges in Adoption
+
+A question I often ponder is: Why hasn’t SAR been more widely adopted, especially in disaster-prone areas like Nigeria, where frequent flooding occurs? Government and humanitarian agencies have yet to fully embrace SAR technology, even though it could significantly enhance disaster response and management.
+
+### Global Frameworks and Policies
+
+On the brighter side, there are international frameworks and policies focused on satellite-assisted disaster management. For instance, Space Voyage Ventures discusses this in detail ([source](https://spacevoyageventures.com/satellite-technology-in-disaster-management-case-studies-and-future-potential/#disaster-management-cycle-and-satellite-integration-2)).

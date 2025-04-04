@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -198,7 +164,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Temperature.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature:</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy:</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -217,7 +183,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#running-code" id="toc-running-code" class="nav-link active" data-scroll-target="#running-code"><span class="header-section-number">3.1</span> Running Code</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">3.1</span> Summary</a></li>
+  <li><a href="#xaringan-presentation" id="toc-xaringan-presentation" class="nav-link" data-scroll-target="#xaringan-presentation"><span class="header-section-number">3.2</span> Xaringan Presentation</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">3.3</span> Reflection:</a></li>
+  <li><a href="#useful-resources" id="toc-useful-resources" class="nav-link" data-scroll-target="#useful-resources"><span class="header-section-number">3.4</span> Useful Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -243,23 +212,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-<section id="running-code" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="running-code"><span class="header-section-number">3.1</span> Running Code</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+<section id="summary" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> Summary</h2>
+<p>This week was more like a tutorial where the main focus was more on the use of Xaringan and Quarto to produce this learning diary, and a group presentation, and how these tool can be used as a powerful tool for data science projects and presentations, So i was Introduced to different styling and formating of xaringan slide and quarto book, and I will be using this tool On R collectively to participate in a group presentation, I will also use this tools to create a personal xaringan slide exploring characteristics of landsat and sentinel imagery. So basically, the application of this tool will be used for the group presentation, personal presentation and quarto book where it will be hosted on github.</p>
+<p><strong>Limitations</strong></p>
+<p>I feel like this is a powerful tool but for the fact you need some kind of special skill, that can however be a little bit daunting, one has to be motivated enough to use these tools as compared to the easy presenation sofwares that does’t require special skill or special program to run them.</p>
+</section>
+<section id="xaringan-presentation" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="xaringan-presentation"><span class="header-section-number">3.2</span> Xaringan Presentation</h2>
+<iframe src="https://idrisbaba.github.io/xaringan-presentation/#1" width="100%" height="600px" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+<section id="reflection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> Reflection:</h2>
+<p>I find the use of Xaringan a bit difficult because this is my first time learning about presentation tool called <strong>Xaringan</strong>, so I found myself struggling to make the presentation, So I was mostly going on YouTube to see the <strong>“how to”</strong> but at last I was able to figured out how to do the xaringan presentation, it seems easier afterwards even though there are some features that i’m yet to explore, and I really think this could be used as a powerful tool to convey your message in a structured format, while including different interactive contents such as videos and pictures which will support your presentation and make it seamless, I also think this tool will be beneficial to programmers which is alot better than power-point as it give you a section for chunk of codes and also gives you other formatting experience like annotations, and a powerful customization, overall I am looking forward to exploring this powerful tool more.</p>
+<p>Another thing is, I feel like my skill on the use of github has improved, for the fact that everytime I render I will push to github. so engaging in the same process over and over made me improved on my github skills.</p>
+<p>Here are some of the <strong>resources</strong> I found useful</p>
+</section>
+<section id="useful-resources" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="useful-resources"><span class="header-section-number">3.4</span> Useful Resources</h2>
+<p>Here are some helpful references that I found valuable while working on this portfolio:</p>
+<p>[Quick Start Guide for Quarto Books](<a href="https://quarto.org/docs/books/#quick-start" class="uri">https://quarto.org/docs/books/#quick-start</a>)</p>
+<p>[xaringan Presentation Framework](<a href="https://bookdown.org/yihui/rmarkdown/xaringan.html" class="uri">https://bookdown.org/yihui/rmarkdown/xaringan.html</a>)</p>
+<p>[Xaringan CSS Theme Generator Framework](<a href="https://cran.r-project.org/web/packages/xaringanthemer/vignettes/xaringanthemer.html" class="uri">https://cran.r-project.org/web/packages/xaringanthemer/vignettes/xaringanthemer.html</a>)</p>
 
 
 </section>
