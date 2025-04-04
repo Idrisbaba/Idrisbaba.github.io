@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Temperature.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy:</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -183,9 +183,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#application" id="toc-application" class="nav-link active" data-scroll-target="#application"><span class="header-section-number">7.1</span> Application:</a></li>
-  <li><a href="#application-1" id="toc-application-1" class="nav-link" data-scroll-target="#application-1"><span class="header-section-number">7.2</span> Application:</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.3</span> Reflection</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link active" data-scroll-target="#application"><span class="header-section-number">7.1</span> Application:</a>
+  <ul class="collapse">
+  <li><a href="#object-based-image-analysis-obia-method-in-the-open-source" id="toc-object-based-image-analysis-obia-method-in-the-open-source" class="nav-link" data-scroll-target="#object-based-image-analysis-obia-method-in-the-open-source"><span class="header-section-number">7.1.1</span> <strong>Object-Based Image Analysis (OBIA) method in the open-source</strong></a></li>
+  <li><a href="#there-was-improved-improved-accuracy-with-obia-methodology" id="toc-there-was-improved-improved-accuracy-with-obia-methodology" class="nav-link" data-scroll-target="#there-was-improved-improved-accuracy-with-obia-methodology"><span class="header-section-number">7.1.2</span> There was improved Improved Accuracy with OBIA Methodology</a></li>
+  </ul></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.2</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -219,12 +222,35 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Independent thought:</strong> The first part of the lecture was really engaging and captured my interest. However, the second part, particularly the methodology section, felt somewhat lot to process . I began noticing a sense of redundancy, as the same methodology had been previously introduced in the data science module. This overlap made the content feel slightly repetitive and added to my confusion. I found myself struggling to grasp several aspects, which made it more challenging to stay focused and fully understand the material.</p>
 <section id="application" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="application"><span class="header-section-number">7.1</span> Application:</h2>
+<section id="object-based-image-analysis-obia-method-in-the-open-source" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="object-based-image-analysis-obia-method-in-the-open-source"><span class="header-section-number">7.1.1</span> <strong>Object-Based Image Analysis (OBIA) method in the open-source</strong></h3>
+<p>Object-Based Image Analysis (OBIA) was used within the open-source software QGIS for classifying land cover and evaluating coastal spatial planning in the Semarang Metropolitan Region of Indonesia. The study compares the OBIA method to traditional pixel-based approaches, finding OBIA more accurate, especially for high-resolution imagery. Utilizing satellite data from 2015 and 2020, the researchers project future land cover changes to 2030 using algorithms in QGIS and then assess the concordance with the spatial plan for 2031, revealing a lack of consideration for rapid environmental shifts like increasing waterbodies. The research demonstrates a cost-effective methodology for developing countries to assess spatial planning and highlights the potential of QGIS as a substitute for commercial remote sensing software in such analyses. (<strong>Abdurrahman Zaki</strong>, <strong>Imam Buchori</strong>, <strong>Anang Wahyu Sejati</strong>, and <strong>Yan Liu, 2022)</strong></p>
 </section>
-<section id="application-1" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="application-1"><span class="header-section-number">7.2</span> Application:</h2>
+<section id="there-was-improved-improved-accuracy-with-obia-methodology" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="there-was-improved-improved-accuracy-with-obia-methodology"><span class="header-section-number">7.1.2</span> There was improved Improved Accuracy with OBIA Methodology</h3>
+<ul>
+<li><p><strong>Comparison of Methods</strong>:</p>
+<ul>
+<li><p>Pixel-based methods often yield lower accuracy for high-resolution images due to the “salt-and-pepper effect”.</p></li>
+<li><p>Object-Based Image Analysis (OBIA) in QGIS achieved higher overall accuracies:</p>
+<ul>
+<li><p><strong>2015 Imagery</strong>: 94.50% accuracy.</p></li>
+<li><p><strong>2020 Imagery</strong>: 90.98% accuracy.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/Clasification.PNG" class="img-fluid figure-img"></p>
+<figcaption><strong>Processes involved</strong></figcaption>
+</figure>
+</div>
 </section>
-<section id="reflection" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
+</section>
+<section id="reflection" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.2</span> Reflection</h2>
+<p>By the end of this week, I was kind of able to develop a solid understanding of the concepts that were introduced. this actually reminded of a previous experience where I conducted a classification for an environmental impact project. It took me about a week to classify the region of interest using QGIS, alternating between overlays of Bing Map and OpenStreetMap. Reflecting on this, I can confidently say that I will definitely use the classification methods I learned this week, as I believe they will significantly reduce the amount of time and effort required for similar tasks in the future. once you take samples everything get generated or you whereas for unsupervised you just need to allow the system carry out the task for you.</p>
+<p>Additionally, I found that engaging with the practical aspects of classification was much easier than grasping the methodological concepts at first. The hands-on experience really helped solidify my understanding</p>
 
 
 </section>
@@ -798,8 +824,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Temperature.html" class="pagination-link" aria-label="Temperature and Policy:">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy:</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Temperature.html" class="pagination-link" aria-label="Temperature and Policy">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

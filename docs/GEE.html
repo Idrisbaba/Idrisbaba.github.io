@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Temperature.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy:</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -183,7 +183,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#application" id="toc-application" class="nav-link active" data-scroll-target="#application"><span class="header-section-number">6.1</span> Application:</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">6.0.1</span> Summary:</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.1</span> Application:</a>
+  <ul class="collapse">
+  <li><a href="#using-google-earth-engine-to-detect-land-cover-change-singapore-as-a-use-case" id="toc-using-google-earth-engine-to-detect-land-cover-change-singapore-as-a-use-case" class="nav-link" data-scroll-target="#using-google-earth-engine-to-detect-land-cover-change-singapore-as-a-use-case"><span class="header-section-number">6.1.1</span> Using Google Earth Engine to detect land cover change: Singapore as a use case</a></li>
+  </ul></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.2</span> Reflection</a></li>
   </ul>
 </nav>
@@ -210,14 +214,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Summary:</strong></p>
-<p><strong>Independent thought:</strong> <strong>limitations:</strong></p>
-<p><strong>Comment:</strong></p>
+<section id="summary" class="level3" data-number="6.0.1">
+<h3 data-number="6.0.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.0.1</span> Summary:</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/GEE.PNG" class="img-fluid figure-img"></p>
+<figcaption>Google Earth Engine Environment</figcaption>
+</figure>
+</div>
+<p>This week focused on introducing us to Google earth engine by exploring some of it’s terminologies as seen in the picture above, we started with the setup , so that everyone gets to be on the same page, after creating a google earth engine account, then we move to the applicability, Google eart engine is so powerful that it could be used to integrate different images offered by different sensor providers, and it’s so powerful you get to overlay and make a sophisticated analysis, and these platforms are accessibly free and open source, which means technically one can build on google earth engine platform, which is really amazing.</p>
+<p>Some of the topics covered in the lectures are scales and their examples, building blocks of GEE, joins, geometries and features, geometric temperatures, methods, applications and outputs and linear regression,</p>
+<section id="independent-thought" class="level4" data-number="6.0.1.1">
+<h4 data-number="6.0.1.1" class="anchored" data-anchor-id="independent-thought"><span class="header-section-number">6.0.1.1</span> Independent thought</h4>
+<p>With the advent of google earth engine, where accesibiity is made free, there could be alot of intervention program that be used to addresss some of the SDG goals, I mean all you need is the technical know how and now you have gotten it so what’s better way to make very good use of it for a best course, Ths could be a starting point of something really great.</p>
+</section>
+</section>
 <section id="application" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="application"><span class="header-section-number">6.1</span> Application:</h2>
+<section id="using-google-earth-engine-to-detect-land-cover-change-singapore-as-a-use-case" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="using-google-earth-engine-to-detect-land-cover-change-singapore-as-a-use-case"><span class="header-section-number">6.1.1</span> Using Google Earth Engine to detect land cover change: Singapore as a use case</h3>
+<p>The study assessed GEE’s capacity to perform raster and vector manipulations on imagery from Landsat, MODIS, and GlobCover (2009) . The researchers conducted space-time analysis over two subregions of Singapore: Tuas (industrial) and the Central Catchment Reserve (CCR) (wetlands), focusing on Urban and Wetlands land classes.</p>
+<p>The core of the paper involves using GEE to generate Enhanced Vegetation Index (EVI) time series charts for both Tuas and CCR from 2006 to 2010 using Landsat and MODIS data to observe land cover changes. The study found that GEE is a powerful tool for accessing and processing a wide variety of imagery and performing spatial aggregations efficiently …. However, the paper highlights that supporting both spatial and temporal analysis simultaneously presents challenges within GEE, with the researchers encountering computational time-outs while generating continuous, long-term EVI time series, potentially due to GEE’s MapReduce architecture</p>
+<p>The analysis revealed rapid industrialization and land reclamation in Tuas, indicated by changing EVI signals in the MODIS data In the CCR, the MODIS EVI data showed the influence of monsoon cycles on vegetation greenness. The study concludes that while GEE offers ease of use and a consolidated library of data, especially beneficial for non-expert users, its proprietary nature limits back-end access, and users are restricted to the provided Javascript or Python interfaces …. The study suggests that strategic data loading and aggregation are crucial for efficient analysis in GEE, especially for large-scale and dense time series data. <strong>(Nanki Sidhu, Edzer Pebesma, and Gilberto Câmara, 2019)</strong></p>
+<p><img src="assets/GELL.PNG" class="img-fluid"></p>
+<p><img src="assets/Singapore.PNG" class="img-fluid"></p>
+<p>Source: (Nanki Sidhu, Edzer Pebesma, and Gilberto Câmara, 2019).</p>
+</section>
 </section>
 <section id="reflection" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.2</span> Reflection</h2>
+<p>I have personally attended various seminars related to GEE, but I have never taken the time to practice using Google Earth Engine, even though it has always been on my mind to carry out one or two analyses using this tool. Now feels like the perfect time to explore its power and capabilities. On a personal note, I believe countries can widely adopt the usage of Google Earth Engine to support their city or national policies, especially since GEE is free and open source. All it requires is the expertise, and I firmly believe that Google Earth Engine has the potential to completely transform the landscape.</p>
+<p>I have committed myself to exploring how I can use this powerful tool and integrate it into non-governmental organizations working toward providing solutions to address the challenges of climate change</p>
 
 
 </section>

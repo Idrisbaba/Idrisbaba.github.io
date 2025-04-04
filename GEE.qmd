@@ -14,7 +14,19 @@ With the advent of google earth engine, where accesibiity is made free, there co
 
 ## Application:
 
-### 
+### Using Google Earth Engine to detect land cover change: Singapore as a use case
+
+The study assessed GEE's capacity to perform raster and vector manipulations on imagery from Landsat, MODIS, and GlobCover (2009) . The researchers conducted space-time analysis over two subregions of Singapore: Tuas (industrial) and the Central Catchment Reserve (CCR) (wetlands), focusing on Urban and Wetlands land classes.
+
+The core of the paper involves using GEE to generate Enhanced Vegetation Index (EVI) time series charts for both Tuas and CCR from 2006 to 2010 using Landsat and MODIS data to observe land cover changes. The study found that GEE is a powerful tool for accessing and processing a wide variety of imagery and performing spatial aggregations efficiently .... However, the paper highlights that supporting both spatial and temporal analysis simultaneously presents challenges within GEE, with the researchers encountering computational time-outs while generating continuous, long-term EVI time series, potentially due to GEE's MapReduce architecture
+
+The analysis revealed rapid industrialization and land reclamation in Tuas, indicated by changing EVI signals in the MODIS data In the CCR, the MODIS EVI data showed the influence of monsoon cycles on vegetation greenness. The study concludes that while GEE offers ease of use and a consolidated library of data, especially beneficial for non-expert users, its proprietary nature limits back-end access, and users are restricted to the provided Javascript or Python interfaces .... The study suggests that strategic data loading and aggregation are crucial for efficient analysis in GEE, especially for large-scale and dense time series data. **(Nanki Sidhu, Edzer Pebesma, and Gilberto Câmara, 2019)**
+
+![](assets/GELL.PNG)
+
+![](assets/Singapore.PNG)
+
+Source: (Nanki Sidhu, Edzer Pebesma, and Gilberto Câmara, 2019).
 
 ## Reflection
 

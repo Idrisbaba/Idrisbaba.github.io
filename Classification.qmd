@@ -32,8 +32,6 @@ Object-Based Image Analysis (OBIA) was used within the open-source software QGIS
 
 ![**Processes involved**](assets/Clasification.PNG)
 
-## 
-
 ## Reflection
 
 By the end of this week, I was kind of able to develop a solid understanding of the concepts that were introduced. this actually reminded of a previous experience where I conducted a classification for an environmental impact project. It took me about a week to classify the region of interest using QGIS, alternating between overlays of Bing Map and OpenStreetMap. Reflecting on this, I can confidently say that I will definitely use the classification methods I learned this week, as I believe they will significantly reduce the amount of time and effort required for similar tasks in the future. once you take samples everything get generated or you whereas for unsupervised you just need to allow the system carry out the task for you.
