@@ -90,6 +90,16 @@
     ]
   },
   {
+    "objectID": "Portfolio.html#xaringan-presentation",
+    "href": "Portfolio.html#xaringan-presentation",
+    "title": "3  Portfolio",
+    "section": "3.2 Xaringan Presentation",
+    "text": "3.2 Xaringan Presentation",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Portfolio</span>"
+    ]
+  },
+  {
     "objectID": "Portfolio.html#reflection",
     "href": "Portfolio.html#reflection",
     "title": "3  Portfolio",
@@ -204,7 +214,17 @@
     "href": "Temperature.html",
     "title": "8  Temperature and Policy:",
     "section": "",
-    "text": "8.1 Summary:\nSome of the discussions and topics covered this week, were Implementation of different temperature policies around the world, that were impacted by issues of climate change or trying to improve the liveability of the city these is in conformity with Sustainable Development Goals (SDG) which were targets with measurable indicators for monitoring, such as making cities and human settlements inclusive, safe, resilient and sustainable which is under goal number 11 we also covered topics like Urban Heat Ireland, factors responsible for urban heat Ireland, social and environmental implications of urban Heat Ireland and how societies are making an attempt to adjust and make amends, while Investing in parks and green spaces. some of the city policies covered are: Medellín Green Corridors, Superblock in Barcelona, Fremantle’s Urban Forest Plan, Global policy documents, Metropolitan (city) policy, Perth and Peel @3.5 million, The London Plan, Singapore’s Master Plan, Seattle’s Green Factor and Baton Rouge’s landscape ordinance.\nIndependent thought:\nI find the Barcelona superblocks to be quite interesting, how i wish cities were as flexible as Barcelona in fast implementation of policy, these could have taken us a lot further in achieving goal 11 of the US sustainable development goal. For the fact that Barcelona was struggling with a lot of environmental and social problem, and they were able to take the bold step towards making their city cleaner and better.\nlimitations:\nBased on what i have been observing around the world, I realized that one among many limitation of these policies is that they’re very hard to achieve and there might aslo be some political draw backs or challenges in regards to its implementation, most political institutions as not as swift as in the case of Barcelona. cities out to act fast to see results.\nComment:",
+    "text": "8.1 Summary:\nSome of the discussions and topics covered this week, were Implementation of different temperature policies around the world, that were impacted by issues of climate change or trying to improve the livability of the city these is in conformity with Sustainable Development Goals (SDG) which were targets with measurable indicators for monitoring, such as making cities and human settlements inclusive, safe, resilient and sustainable which is under goal number 11 we also covered topics like Urban Heat Ireland, factors responsible for urban heat Ireland, social and environmental implications of urban Heat Ireland and how societies are making an attempt to adjust and make amends, while Investing in parks and green spaces. some of the city policies covered are: Medellín Green Corridors, Superblock in Barcelona, Fremantle’s Urban Forest Plan, Global policy documents, Metropolitan (city) policy, Perth and Peel @3.5 million, The London Plan, Singapore’s Master Plan, Seattle’s Green Factor and Baton Rouge’s landscape ordinance.\nIndependent thought:\nI find the Barcelona superblocks to be quite interesting, how i wish cities were as flexible as Barcelona in fast implementation of policy, these could have taken us a lot further in achieving goal 11 of the US sustainable development goal. For the fact that Barcelona was struggling with a lot of environmental and social problem, and they were able to take the bold step towards making their city cleaner and better.\nlimitations:\nBased on what i have been observing around the world, I realized that one among many limitation of these policies is that they’re very hard to achieve and there might aslo be some political draw backs or challenges in regards to its implementation, most political institutions as not as swift as in the case of Barcelona. cities out to act fast to see results.\nComment:",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature.html#application",
+    "href": "Temperature.html#application",
+    "title": "8  Temperature and Policy:",
+    "section": "8.2 Application:",
+    "text": "8.2 Application:\nThis section has been covered on policy section",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
     ]
@@ -247,26 +267,6 @@
     "text": "9.3 Benefits and Challenges of Synthetic Aperture Radar (SAR)\nSynthetic Aperture Radar (SAR) is an incredibly powerful tool with applications in areas such as flooding and earthquakes. For example, the U.S. upgraded its F22 aircraft to include SAR Imaging in July 2017 (source). SAR’s capability to operate unaffected by weather, clouds, or rainfall makes it highly reliable.\nDespite its advantages, some of the terminologies and concepts associated with SAR can be ambiguous. In my research, I found that its use in many scenarios remains relatively unknown.\n\n9.3.1 Challenges in Adoption\nA question I often ponder is: Why hasn’t SAR been more widely adopted, especially in disaster-prone areas like Nigeria, where frequent flooding occurs? Government and humanitarian agencies have yet to fully embrace SAR technology, even though it could significantly enhance disaster response and management.\n\n\n9.3.2 Global Frameworks and Policies\nOn the brighter side, there are international frameworks and policies focused on satellite-assisted disaster management. For instance, Space Voyage Ventures discusses this in detail (source).",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>SAR:</span>"
-    ]
-  },
-  {
-    "objectID": "Portfolio.html#xaringan-presentation",
-    "href": "Portfolio.html#xaringan-presentation",
-    "title": "3  Portfolio",
-    "section": "3.2 Xaringan Presentation",
-    "text": "3.2 Xaringan Presentation",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Portfolio</span>"
-    ]
-  },
-  {
-    "objectID": "Temperature.html#application",
-    "href": "Temperature.html#application",
-    "title": "8  Temperature and Policy:",
-    "section": "8.2 Application:",
-    "text": "8.2 Application:",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
     ]
   }
 ]
