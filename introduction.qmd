@@ -1,7 +1,3 @@
----
-title: "Introduction"
----
-
 ## Introduction
 
 **Summary:** This week, was more like an introductory session for remote sensing where I was introduced to remote sensing and different concepts of remote sensing, starting from electromagnetic spectrum, radiation, wavelength, spectral signature, active and passive sensors, scattering, Raleigh Scattering, Resolution which was categorised into spatial, spectral , temporal and radiometric resolution. data exploration, and then different applications of remote sensing, and lastly, I was introduced to different types of remotely sensed images such as Landsat and sentinel imagery.
