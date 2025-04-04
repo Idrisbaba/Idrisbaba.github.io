@@ -6,7 +6,7 @@ book:
   chapters:
     - index.qmd   # Home or introduction
     - About.qmd   # About section
-    - Introduction.qmd
+    - introduction.qmd
     - Portfolio.qmd
     - Corrections.qmd  # Corrections section
     - Policy.qmd
