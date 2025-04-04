@@ -114,7 +114,7 @@
     "href": "Corrections.html",
     "title": "4  Corrections",
     "section": "",
-    "text": "4.1 Application:\nSummary: This week started with some evolution of remote sensing, exploring how it was discovered and showcasing the first sophisticated picture captured as a tester just two months before Landsat was launched. Some of the topics covered included different sensors, such as the whisk broom and push broom types. The evolution of Landsat from July 1972 to the present day was also discussed. However, the main focus of the day revolved around various corrections in remote sensing, including geometric, atmospheric, orthorectification or topographic, and lastly radiometric correction. Part two of the lectures was on data joining and enhancements\nI really find the correction methodology to be highly relevant. For instance, I can think of downloading remotely sensed data covered by clouds—what better way to address this issue than to apply atmospheric correction methodology? Or perhaps working with an image that I need to analyze but find it distorted, so the best solution would be to perfor geometric correction. I feel that this is one of the most crucial aspects of remote sensing; essentially, any type of analysis you wish to undertake will require some form of correction to align with your needs.\nlimitations:\nSome of the limtation of correction methodology for remotley sensed data is that EO is widely becoming accepted day by day for disater sort of intervention carrying out correction methology can result in wasting alot of time, when disater occur there is need for a swift intervention.\nComment:\nSo now I can refelect based on the comment from the lecture towards the end of the lecture so much sense now, as it stated that most of the correction activities is being handled at the backend now\nA study of an application of correction which was conducted in the Pearl River Delta, Guangdong Province, China, aimed to determine when atmospheric correction is essential for land cover image classification and change detection using Landsat TM data to identify the best-performing correction methods. The researchers evaluated seven absolute atmospheric correction methods, Dark Object Subtraction (DOS) variations, Dense Dark Vegetation (DDV), Modified Dense Dark Vegetation (MDDV), and Parameterized (PARA)—alongside one relative correction method (Ridge Method), against uncorrected raw Landsat TM images collected between 1988 and 1996.\nThe paper emphasizes that atmospheric effects, such as scattering and absorption, significantly alter satellite signals, making atmospheric correction a fundamental preprocessing step. However, the necessity of atmospheric correction depends on specific applications, data availability, and analytical approaches.\nThe study concludes that while all tested atmospheric correction methods improved results, simpler methods like DOS or relative correction (e.g., Ridge Method) are recommended for processing large volumes of Landsat images. These approaches effectively bring multitemporal datasets to a common relative scale, making them practical when accurate surface reflectance is not the primary goal. most Importantly, the methods that enhanced classification and change detection the most did not always provide the most precise surface reflectance estimates.(Seto et al., 2000)",
+    "text": "4.0.1 Summary:\nThis week started with some evolution of remote sensing, exploring how it was discovered and showcasing the first sophisticated picture captured as a tester just two months before Landsat was launched. Some of the topics covered included different sensors, such as the whisk broom and push broom types. The evolution of Landsat from July 1972 to the present day was also discussed. However, the main focus of the day revolved around various corrections in remote sensing, including geometric, atmospheric, orthorectification or topographic, and lastly radiometric correction. Part two of the lectures was on data joining and enhancements\nI really find the correction methodology to be highly relevant. For instance, I can think of downloading remotely sensed data covered by clouds—what better way to address this issue than to apply atmospheric correction methodology? Or perhaps working with an image that I need to analyze but find it distorted, so the best solution would be to perform geometric correction. I feel that this is one of the most crucial aspects of remote sensing; essentially, any type of analysis you wish to undertake will require some form of correction to align with your needs.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "Corrections.html#reflection",
     "title": "4  Corrections",
     "section": "4.2 Reflection",
-    "text": "4.2 Reflection\nWhat i have realized is that most of the papers i come accros applied thsi methodology some years back, So i dont ever think this will be application to my future endeavors but at least knowing about the proceses is quite enriching,",
+    "text": "4.2 Reflection\nWhat i have realized is that most of the papers i come across applied this methodology some years back, So i don’t ever think this will be application to my future endeavors but at least knowing about the processes is quite enriching.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
@@ -202,31 +202,31 @@
   {
     "objectID": "Temperature.html",
     "href": "Temperature.html",
-    "title": "8  Temperature and Policy:",
+    "title": "8  Temperature and Policy",
     "section": "",
-    "text": "8.1 Summary:\nSome of the discussions and topics covered this week, were Implementation of different temperature policies around the world, that were impacted by issues of climate change or trying to improve the livability of the city these is in conformity with Sustainable Development Goals (SDG) which were targets with measurable indicators for monitoring, such as making cities and human settlements inclusive, safe, resilient and sustainable which is under goal number 11 we also covered topics like Urban Heat Ireland, factors responsible for urban heat Ireland, social and environmental implications of urban Heat Ireland and how societies are making an attempt to adjust and make amends, while Investing in parks and green spaces. some of the city policies covered are: Medellín Green Corridors, Superblock in Barcelona, Fremantle’s Urban Forest Plan, Global policy documents, Metropolitan (city) policy, Perth and Peel @3.5 million, The London Plan, Singapore’s Master Plan, Seattle’s Green Factor and Baton Rouge’s landscape ordinance.\nIndependent thought:\nI find the Barcelona superblocks to be quite interesting, how i wish cities were as flexible as Barcelona in fast implementation of policy, these could have taken us a lot further in achieving goal 11 of the US sustainable development goal. For the fact that Barcelona was struggling with a lot of environmental and social problem, and they were able to take the bold step towards making their city cleaner and better.\nlimitations:\nBased on what i have been observing around the world, I realized that one among many limitation of these policies is that they’re very hard to achieve and there might aslo be some political draw backs or challenges in regards to its implementation, most political institutions as not as swift as in the case of Barcelona. cities out to act fast to see results.\nComment:",
+    "text": "8.1 Summary:\nSome of the discussions and topics covered this week, were Implementation of different temperature policies around the world, that were impacted by issues of climate change or trying to improve the livability of the city these is in conformity with Sustainable Development Goals (SDG) which were targets with measurable indicators for monitoring, such as making cities and human settlements inclusive, safe, resilient and sustainable which is under goal number 11 we also covered topics like Urban Heat Ireland, factors responsible for urban heat Ireland, social and environmental implications of urban Heat Ireland and how societies are making an attempt to adjust and make amends, while Investing in parks and green spaces. some of the city policies covered are: Medellín Green Corridors, Superblock in Barcelona, Fremantle’s Urban Forest Plan, Global policy documents, Metropolitan (city) policy, Perth and Peel @3.5 million, The London Plan, Singapore’s Master Plan, Seattle’s Green Factor and Baton Rouge’s landscape ordinance.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy</span>"
     ]
   },
   {
     "objectID": "Temperature.html#application",
     "href": "Temperature.html#application",
-    "title": "8  Temperature and Policy:",
+    "title": "8  Temperature and Policy",
     "section": "8.2 Application:",
     "text": "8.2 Application:\nThis section has been covered on policy section",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy</span>"
     ]
   },
   {
     "objectID": "Temperature.html#reflection",
     "href": "Temperature.html#reflection",
-    "title": "8  Temperature and Policy:",
+    "title": "8  Temperature and Policy",
     "section": "8.3 Reflection",
     "text": "8.3 Reflection\nThis week I was able to improve on my policy application knowledge while realizing most countries are developing their own personal policies towards the betterment of their people, even though there is a global policy the is a local policy that is targeted to country’s needs.  \nI believe my knowledge will be reflected in the sense that using our non-governmental organization and coming from a low and middle income country  its very important to see how we can implement these policies because these problem is global, continuous negligence or rather human activity keep putting the world at risk of UHI, Flooding, and bush fires. While from my own local context UHI and desertification.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy</span>"
     ]
   },
   {
@@ -277,6 +277,26 @@
     "text": "2.3 New Tasseled Cap Classification Technique using Landsat-8 OLI Image Bands\nWhile our previous discussion used sentinel 2 imagery to map changes in forest vegetation over time in the Natural Park “Blue Stones this in contary used Landsat-8 OLI Image Bands , the authors introduces a novel classification approach based on the Tasseled Cap Transformation (TCT) using Landsat-8 Operational Land Imager (OLI) data. The study focuses on quantifying rice cultivation acreage in Al-Najaf and Al-Qadisiya provinces, Iraq’s key rice production regions. TCT coefficients were derived specifically for imagery acquired on September 28, 2013, deemed most suitable for identifying land surface features related to rice fields.\nThe classification method centers on analyzing scatterplots of TCT Greenness and Brightness components, dividing them into regions corresponding to reflectance values for land cover classification. This approach compresses multispectral data into fewer bands associated with physical scene characteristics, ensuring minimal information loss. Preprocessing included radiometric correction of Landsat-8 OLI images to Top of Atmospheric (TOA) reflectance, and TCT components (Brightness, Greenness, and Wetness) were calculated using weights tailored for OLI bands. (Ali and Salman (2016)\nA key aspect of the methodology was the automatic determination of the soil line and boundaries in the Brightness-Greenness scatterplot for classifying land cover types, particularly dense vegetation like rice plantations. The calculated rice acreage (89,589.402 hectares) closely matched the Iraqi Ministry of Agriculture’s reported figure (90,577 hectares), achieving an accuracy of 98.91%. For the Al-Mashkhab region, predictions (9,248.22 hectares) aligned with agricultural office data (8,750 hectares), yielding a 97.86% accuracy for crop production.\nUnlike forest monitoring studies that track temporal changes, this research validated a static classification technique for mapping rice cultivation. Its findings emphasize the value of Landsat-8 OLI data and the new TCT-based method in agricultural mapping, with significant implications for food security and resource management. The results may even surpass the accuracy of official agricultural data(Ali and Salman (2016).",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature.html#summary",
+    "href": "Temperature.html#summary",
+    "title": "8  Temperature and Policy",
+    "section": "",
+    "text": "8.1.1 Independent thought:\nI find the Barcelona superblocks to be quite interesting, how i wish cities were as flexible as Barcelona in fast implementation of policy, these could have taken us a lot further in achieving goal 11 of the US sustainable development goal. For the fact that Barcelona was struggling with a lot of environmental and social problem, and they were able to take the bold step towards making their city cleaner and better.   \n\n\n8.1.2 limitations:\nBased on what I have been observing around the world, I realized that one among many limitation of these policies is that they’re very hard to achieve and there might aslo be some political draw backs or challenges in regards to its implementation, most political institutions as not as swift as in the case of Barcelona. cities out to act fast to see results.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html#application",
+    "href": "Corrections.html#application",
+    "title": "4  Corrections",
+    "section": "4.1 Application:",
+    "text": "4.1 Application:\nA study of an application of correction which was conducted in the Pearl River Delta, Guangdong Province, China, aimed to determine when atmospheric correction is essential for land cover image classification and change detection using Landsat TM data to identify the best-performing correction methods. The researchers evaluated seven absolute atmospheric correction methods, Dark Object Subtraction (DOS) variations, Dense Dark Vegetation (DDV), Modified Dense Dark Vegetation (MDDV), and Parameterized (PARA)—alongside one relative correction method (Ridge Method), against uncorrected raw Landsat TM images collected between 1988 and 1996.\nThe paper emphasizes that atmospheric effects, such as scattering and absorption, significantly alter satellite signals, making atmospheric correction a fundamental preprocessing step. However, the necessity of atmospheric correction depends on specific applications, data availability, and analytical approaches.\nThe study concludes that while all tested atmospheric correction methods improved results, simpler methods like DOS or relative correction (e.g., Ridge Method) are recommended for processing large volumes of Landsat images. These approaches effectively bring multitemporal datasets to a common relative scale, making them practical when accurate surface reflectance is not the primary goal. most Importantly, the methods that enhanced classification and change detection the most did not always provide the most precise surface reflectance estimates.(Seto et al., 2000)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
   }
 ]

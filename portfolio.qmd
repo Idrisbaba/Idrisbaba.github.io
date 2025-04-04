@@ -2,13 +2,13 @@
 
 ## Summary
 
-This week was more like a tutorial where the main focus was more on the use of Xaringan and Quarto to produce this learning diary, and a group presentation, and how these tool can be used as a powerful tool for data science projects and presentations, So i was Introduced to different styling and formating of xaringan slide and quarto book, and I will be using this tool On R collectively to participate in a group presentation, I will also use this tools to create a  personal xaringan slide exploring characteristics of landsat and sentinel imagery. So basically, the application of this tool will be used for the group presentation, personal presentation and quarto book where it will be hosted on github.
+This week felt like a tutorial-focused experience, with the main emphasis on learning to use Xaringan and Quarto, for creating this learning diary and preparing a group presentation, which I completely understood why andy introduced us to this amazing tool. So basically, the lectures highlighted on different functionality and usability of the tools, which i come to realize how these tools serve as powerful resources for data science projects and presentations. I was introduced to various styling and formatting options for Xaringan slides and Quarto book.
 
+I plan to use these tools collaboratively in R to contribute to the group presentation we were given which is part of our assesement for this course, as well as create a personal Xaringan slide exploring the characteristics of Landsat and Sentinel imagery. Essentially, these tools will be applied in all of my outputs from this course , including the group presentation, my personal presentation, and a Quarto book, which will ultimately be hosted on GitHub
 
-**Limitations**
+#### **Limitations**
 
-I feel like this is a powerful tool but for the fact you need some kind of special skill, that can however be a little bit daunting, one has to be motivated enough to use these tools as compared to the easy presenation sofwares that does't require special skill or special program to run them. 
-
+While I believe this is a powerful tool, the requirement for specialized skills can make it a bit daunting. Using these tools demands a level of motivation and effort, especially when compared to more straightforward presentation software that doesn't require technical expertise or special programs to operate
 
 ## Xaringan Presentation
 
@@ -20,7 +20,7 @@ I feel like this is a powerful tool but for the fact you need some kind of speci
 
 I find the use of Xaringan a bit difficult because this is my first time learning about presentation tool called **Xaringan**, so I found myself struggling to make the presentation, So I was mostly going on YouTube to see the **"how to"** but at last I was able to figured out how to do the xaringan presentation, it seems easier afterwards even though there are some features that i'm yet to explore, and I really think this could be used as a powerful tool to convey your message in a structured format, while including different interactive contents such as videos and pictures which will support your presentation and make it seamless, I also think this tool will be beneficial to programmers which is alot better than power-point as it give you a section for chunk of codes and also gives you other formatting experience like annotations, and a powerful customization, overall I am looking forward to exploring this powerful tool more.
 
-Another thing is, I feel like my skill on the use of github has improved, for the fact that everytime I render I will push to github. so engaging in the same process over and over made me improved on my github skills. 
+Another thing is, I feel like my skill on the use of github has improved, for the fact that everytime I render I will push to github. so engaging in the same process over and over made me improved on my github skills.
 
 Here are some of the **resources** I found useful
 
@@ -28,10 +28,8 @@ Here are some of the **resources** I found useful
 
 Here are some helpful references that I found valuable while working on this portfolio:
 
-
 \[Quick Start Guide for Quarto Books\](<https://quarto.org/docs/books/#quick-start>)
 
 \[xaringan Presentation Framework\](<https://bookdown.org/yihui/rmarkdown/xaringan.html>)
-
 
 \[Xaringan CSS Theme Generator Framework\](<https://cran.r-project.org/web/packages/xaringanthemer/vignettes/xaringanthemer.html>)

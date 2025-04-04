@@ -14,10 +14,28 @@ Additionally, the lectures covered various classification methodologies, such as
 
 ## Application:
 
+### **Object-Based Image Analysis (OBIA) method in the open-source**
+
+Object-Based Image Analysis (OBIA) was used within the open-source software QGIS for classifying land cover and evaluating coastal spatial planning in the Semarang Metropolitan Region of Indonesia. The study compares the OBIA method to traditional pixel-based approaches, finding OBIA more accurate, especially for high-resolution imagery. Utilizing satellite data from 2015 and 2020, the researchers project future land cover changes to 2030 using algorithms in QGIS and then assess the concordance with the spatial plan for 2031, revealing a lack of consideration for rapid environmental shifts like increasing waterbodies. The research demonstrates a cost-effective methodology for developing countries to assess spatial planning and highlights the potential of QGIS as a substitute for commercial remote sensing software in such analyses. (**Abdurrahman Zaki**, **Imam Buchori**, **Anang Wahyu Sejati**, and **Yan Liu, 2022)**
+
+### There was improved Improved Accuracy with OBIA Methodology
+
+-   **Comparison of Methods**:
+
+    -   Pixel-based methods often yield lower accuracy for high-resolution images due to the "salt-and-pepper effect".
+
+    -   Object-Based Image Analysis (OBIA) in QGIS achieved higher overall accuracies:
+
+        -   **2015 Imagery**: 94.50% accuracy.
+
+        -   **2020 Imagery**: 90.98% accuracy.
+
+![**Processes involved**](assets/Clasification.PNG)
+
 ## 
 
 ## Reflection
 
 By the end of this week, I was kind of able to develop a solid understanding of the concepts that were introduced. this actually reminded of a previous experience where I conducted a classification for an environmental impact project. It took me about a week to classify the region of interest using QGIS, alternating between overlays of Bing Map and OpenStreetMap. Reflecting on this, I can confidently say that I will definitely use the classification methods I learned this week, as I believe they will significantly reduce the amount of time and effort required for similar tasks in the future. once you take samples everything get generated or you whereas for unsupervised you just need to allow the system carry out the task for you.
 
-Additionally, I found that engaging with the practical aspects of classification was much easier than grasping the theoretical concepts at first. The hands-on experience really helped solidify my understanding
+Additionally, I found that engaging with the practical aspects of classification was much easier than grasping the methodological concepts at first. The hands-on experience really helped solidify my understanding

@@ -1,11 +1,23 @@
 ## Google Earth Engine:
 
-**Summary:**
+### Summary:
 
-**Independent thought:** **limitations:**
+![Google Earth Engine Environment](assets/GEE.PNG)
 
-**Comment:**
+This week focused on introducing us to Google earth engine by exploring some of it's terminologies as seen in the picture above, we started with the setup , so that everyone gets to be on the same page, after creating a google earth engine account, then we move to the applicability, Google eart engine is so powerful that it could be used to integrate different images offered by different sensor providers, and it's so powerful you get to overlay and make a sophisticated analysis, and these platforms are accessibly free and open source, which means technically one can build on google earth engine platform, which is really amazing.
+
+Some of the topics covered in the lectures are scales and their examples, building blocks of GEE, joins, geometries and features, geometric temperatures, methods, applications and outputs and linear regression,
+
+#### Independent thought
+
+With the advent of google earth engine, where accesibiity is made free, there could be alot of intervention program that be used to addresss some of the SDG goals, I mean all you need is the technical know how and now you have gotten it so what's better way to make very good use of it for a best course, Ths could be a starting point of something really great.
 
 ## Application:
 
+### 
+
 ## Reflection
+
+I have personally attended various seminars related to GEE, but I have never taken the time to practice using Google Earth Engine, even though it has always been on my mind to carry out one or two analyses using this tool. Now feels like the perfect time to explore its power and capabilities. On a personal note, I believe countries can widely adopt the usage of Google Earth Engine to support their city or national policies, especially since GEE is free and open source. All it requires is the expertise, and I firmly believe that Google Earth Engine has the potential to completely transform the landscape.
+
+I have committed myself to exploring how I can use this powerful tool and integrate it into non-governmental organizations working toward providing solutions to address the challenges of climate change
