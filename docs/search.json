@@ -50,8 +50,8 @@
     ]
   },
   {
-    "objectID": "Introduction.html",
-    "href": "Introduction.html",
+    "objectID": "introduction.html",
+    "href": "introduction.html",
     "title": "2  Introduction",
     "section": "",
     "text": "2.1 Application:\nSummary: This week, was more like an introductory session for remote sensing where I was introduced to remote sensing and different concepts of remote sensing, starting from electromagnetic spectrum, radiation, wavelength, spectral signature, active and passive sensors, scattering, Raleigh Scattering, Resolution which was categorised into spatial, spectral , temporal and radiometric resolution. data exploration, and then different applications of remote sensing, and lastly, I was introduced to different types of remotely sensed images such as Landsat and sentinel imagery.\nIndependent thought: I find the spectral signature quite interesting because I believe this could be used to have a rough idea of the components of that area, more like a preliminary approach to learning something within a particular area.\nlimitations:\nComment: I feel like remote sensing is quite broad, there are so many topics in the aspects of remote sensing, to be really good one need to have some kind direction or specialty, i mean it’s just the beginning, but I personally feel like there is so much to learn.\nTCT, which stands for tassle cap transformation which I find very interesting and quite related to the topics covered in this week. The paper used Tassle cap transformation methodology to monitor forest vegetation and detect changes in the forest cover from a natural park in Bulgaria. Tasseled Cap Transformation (TCT) methodology was applied using Sentinel-2 satellite images, resulting in three components: “brightness,” “greenness,” and “wetness. They used the”greenness” component to calculate the Normalized Differential Greenness Index (NDGI), and these provides data on forest vegetation dynamics over short and long-term periods (Andrey Stoyanov, 2022) . The study provided detailed maps showing changes in vegetation over different periods, highlighting areas of positive and negative changes. While this, which contrasts with the first paper, used Landsat 8 images to measure rice production at Al-Najaf in the middle south of Iraq, where they intended to quantify the amount of rice being produces, and have some kind of accuracy in comparison to the information given by government of iran in force of food security. A new classification method using the Tasseled Cap Transformation (TCT) using Landsat-8 imagery (Saleh Ali, 2016)",
@@ -60,8 +60,8 @@
     ]
   },
   {
-    "objectID": "Introduction.html#reflection",
-    "href": "Introduction.html#reflection",
+    "objectID": "introduction.html#reflection",
+    "href": "introduction.html#reflection",
     "title": "2  Introduction",
     "section": "2.2 Reflection",
     "text": "2.2 Reflection\nBy the end of week one, I found that some of the concepts introduced were familiar to me, while others were completely new. I was able to understand the distinct characteristics of Landsat and Sentinel imagery, that Sentinel images have a higher resolution of 10 meters, whereas Landsat imagery is limited to 30 meters.\nI also came to appreciate the benefits of the Tasseled Cap Transformation, a technique founded on the principles of greenness, wetness, and brightness. Originally developed by R.J. Kauth and G.S. Thomas in 1976 using Landsat satellite data, this method holds great potential for monitoring changes in forest cover. Furthermore, I believe this approach could be widely adopted by governments, non-governmental organizations, and policymakers to support ecosystem restoration efforts, which are crucial in addressing climate change.",
@@ -114,7 +114,7 @@
     "href": "Corrections.html",
     "title": "4  Corrections",
     "section": "",
-    "text": "4.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "text": "4.1 Application:\nSummary: This week started with some evolution of remote sensing, exploring how it was discovered and showcasing the first sophisticated picture captured as a tester just two months before Landsat was launched. Some of the topics covered included different sensors, such as the whisk broom and push broom types. The evolution of Landsat from July 1972 to the present day was also discussed. However, the main focus of the day revolved around various corrections in remote sensing, including geometric, atmospheric, orthorectification or topographic, and lastly radiometric correction. Part two of the lectures was on data joining and enhancements\nI really find the correction methodology to be highly relevant. For instance, I can think of downloading remotely sensed data covered by clouds—what better way to address this issue than to apply atmospheric correction methodology? Or perhaps working with an image that I need to analyze but find it distorted, so the best solution would be to perfor geometric correction. I feel that this is one of the most crucial aspects of remote sensing; essentially, any type of analysis you wish to undertake will require some form of correction to align with your needs.\nlimitations:\nSome of the limtation of correction methodology for remotley sensed data is that EO is widely becoming accepted day by day for disater sort of intervention carrying out correction methology can result in wasting alot of time, when disater occur there is need for a swift intervention.\nComment:\nSo now I can refelect based on the comment from the lecture towards the end of the lecture so much sense now, as it stated that most of the correction activities is being handled at the backend now\nA study of an application of correction which was conducted in the Pearl River Delta, Guangdong Province, China, aimed to determine when atmospheric correction is essential for land cover image classification and change detection using Landsat TM data to identify the best-performing correction methods. The researchers evaluated seven absolute atmospheric correction methods, Dark Object Subtraction (DOS) variations, Dense Dark Vegetation (DDV), Modified Dense Dark Vegetation (MDDV), and Parameterized (PARA)—alongside one relative correction method (Ridge Method), against uncorrected raw Landsat TM images collected between 1988 and 1996.\nThe paper emphasizes that atmospheric effects, such as scattering and absorption, significantly alter satellite signals, making atmospheric correction a fundamental preprocessing step. However, the necessity of atmospheric correction depends on specific applications, data availability, and analytical approaches.\nThe study concludes that while all tested atmospheric correction methods improved results, simpler methods like DOS or relative correction (e.g., Ridge Method) are recommended for processing large volumes of Landsat images. These approaches effectively bring multitemporal datasets to a common relative scale, making them practical when accurate surface reflectance is not the primary goal. most Importantly, the methods that enhanced classification and change detection the most did not always provide the most precise surface reflectance estimates.(Seto et al., 2000)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "Corrections.html#reflection",
     "title": "4  Corrections",
     "section": "4.2 Reflection",
-    "text": "4.2 Reflection",
+    "text": "4.2 Reflection\nWhat i have realized is that most of the papers i come accros applied thsi methodology some years back, So i dont ever think this will be application to my future endeavors but at least knowing about the proceses is quite enriching,",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
     ]
