@@ -54,7 +54,7 @@
     "href": "Introduction.html",
     "title": "2  Introduction",
     "section": "",
-    "text": "2.1 Introduction\nSummary: This week, was more like an introductory session for remote sensing where I was introduced to remote sensing and different concepts of remote sensing, starting from electromagnetic spectrum, radiation, wavelength, spectral signature, active and passive sensors, data exploration, and then different applications of remote sensing, and lastly, I was introduced to different types of remotely sensed images such as Landsat and sentinel imagery.\nIndependent thought: I find the spectral signature quite interesting because I believe this could be used to have a rough idea of the components of that area, more like a preliminary approach to learning something within a particular area.\nlimitations:\nComment: I feel like remote sensing is quite broad, there are so many topics in the aspects of remote sensing, to be really good one need to have some kind direction or specialty, i mean it’s just the beginning, but I personally feel like there is so much to learn.",
+    "text": "2.1 Introduction\nSummary: This week, was more like an introductory session for remote sensing where I was introduced to remote sensing and different concepts of remote sensing, starting from electromagnetic spectrum, radiation, wavelength, spectral signature, active and passive sensors, scattering, Raleigh Scattering, Resolution which was categorised into spatial, spectral , temporal and radiometric resolution. data exploration, and then different applications of remote sensing, and lastly, I was introduced to different types of remotely sensed images such as Landsat and sentinel imagery.\nIndependent thought: I find the spectral signature quite interesting because I believe this could be used to have a rough idea of the components of that area, more like a preliminary approach to learning something within a particular area.\nlimitations:\nComment: I feel like remote sensing is quite broad, there are so many topics in the aspects of remote sensing, to be really good one need to have some kind direction or specialty, i mean it’s just the beginning, but I personally feel like there is so much to learn.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -64,7 +64,7 @@
     "href": "Introduction.html#application",
     "title": "2  Introduction",
     "section": "2.2 Application:",
-    "text": "2.2 Application:\nTCT, which stands for tassle cap transformation which I find very interesting and quite related to the topics covered in this week. The paper used Tassle cap transformation methodology to monitor forest vegetation and detect changes in the forest cover from a natural park in Bulgaria. Tasseled Cap Transformation (TCT) methodology was applied using Sentinel-2 satellite images, resulting in three components: “brightness,” “greenness,” and “wetness. They used the”greenness” component to calculate the Normalized Differential Greenness Index (NDGI), and these provides data on forest vegetation dynamics over short and long-term periods (Andrey Stoyanov, 2022) . The study provided detailed maps showing changes in vegetation over different periods, highlighting areas of positive and negative changes. While this, which contrasts with the first paper, used Landsat 8 images to measure rice production at Al-Najaf in the middle south of Iraq, where they intended to qunatify the amount of rice being produces, and have some kind of accuracy in comparison to the information given by government of iran in force of food security. A new classification method using the Tasseled Cap Transformation (TCT) using Landsat-8 imagery (Saleh Ali, 2016)",
+    "text": "2.2 Application:\nTCT, which stands for tassle cap transformation which I find very interesting and quite related to the topics covered in this week. The paper used Tassle cap transformation methodology to monitor forest vegetation and detect changes in the forest cover from a natural park in Bulgaria. Tasseled Cap Transformation (TCT) methodology was applied using Sentinel-2 satellite images, resulting in three components: “brightness,” “greenness,” and “wetness. They used the”greenness” component to calculate the Normalized Differential Greenness Index (NDGI), and these provides data on forest vegetation dynamics over short and long-term periods (Andrey Stoyanov, 2022) . The study provided detailed maps showing changes in vegetation over different periods, highlighting areas of positive and negative changes. While this, which contrasts with the first paper, used Landsat 8 images to measure rice production at Al-Najaf in the middle south of Iraq, where they intended to quantify the amount of rice being produces, and have some kind of accuracy in comparison to the information given by government of iran in force of food security. A new classification method using the Tasseled Cap Transformation (TCT) using Landsat-8 imagery (Saleh Ali, 2016)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -202,21 +202,21 @@
   {
     "objectID": "Temperature.html",
     "href": "Temperature.html",
-    "title": "8  Temperature:",
+    "title": "8  Temperature and Policy:",
     "section": "",
-    "text": "8.1 Application:\nSummary:\nIndependent thought: limitations:\nComment:",
+    "text": "8.1 Summary:\nSome of the discussions and topics covered this week, were Implementation of different temperature policies around the world, that were impacted by issues of climate change or trying to improve the liveability of the city these is in conformity with Sustainable Development Goals (SDG) which were targets with measurable indicators for monitoring, such as making cities and human settlements inclusive, safe, resilient and sustainable which is under goal number 11 we also covered topics like Urban Heat Ireland, factors responsible for urban heat Ireland, social and environmental implications of urban Heat Ireland and how societies are making an attempt to adjust and make amends, while Investing in parks and green spaces. some of the city policies covered are: Medellín Green Corridors, Superblock in Barcelona, Fremantle’s Urban Forest Plan, Global policy documents, Metropolitan (city) policy, Perth and Peel @3.5 million, The London Plan, Singapore’s Master Plan, Seattle’s Green Factor and Baton Rouge’s landscape ordinance.\nIndependent thought:\nI find the Barcelona superblocks to be quite interesting, how i wish cities were as flexible as Barcelona in fast implementation of policy, these could have taken us a lot further in achieving goal 11 of the US sustainable development goal. For the fact that Barcelona was struggling with a lot of environmental and social problem, and they were able to take the bold step towards making their city cleaner and better.\nlimitations:\nBased on what i have been observing around the world, I realized that one among many limitation of these policies is that they’re very hard to achieve and there might aslo be some political draw backs or challenges in regards to its implementation, most political institutions as not as swift as in the case of Barcelona. cities out to act fast to see results.\nComment:",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature:</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
     ]
   },
   {
     "objectID": "Temperature.html#reflection",
     "href": "Temperature.html#reflection",
-    "title": "8  Temperature:",
-    "section": "8.2 Reflection",
-    "text": "8.2 Reflection",
+    "title": "8  Temperature and Policy:",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\nThis week I was able to improve on my policy application knowledge while realizing most countries are developing their own personal policies towards the betterment of their people, even though there is a global policy the is a local policy that is targeted to country’s needs.  \nI believe my knowledge will be reflected in the sense that using our non-governmental organization and coming from a low and middle income country  its very important to see how we can implement these policies because these problem is global, continuous negligence or rather human activity keep putting the world at risk of UHI, Flooding, and bush fires. While from my own local context UHI and desertification.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature:</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
     ]
   },
   {
@@ -257,6 +257,16 @@
     "text": "3.2 Xaringan Presentation",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Portfolio</span>"
+    ]
+  },
+  {
+    "objectID": "Temperature.html#application",
+    "href": "Temperature.html#application",
+    "title": "8  Temperature and Policy:",
+    "section": "8.2 Application:",
+    "text": "8.2 Application:",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Temperature and Policy:</span>"
     ]
   }
 ]
