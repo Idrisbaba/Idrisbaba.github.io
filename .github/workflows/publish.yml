@@ -24,7 +24,7 @@ jobs:
 
       - name: Install additional R dependencies
         run: |
-          Rscript -e 'install.packages(c("quarto", "bookdown"))'
+          Rscript -e 'install.packages(c("bookdown"))'
 
       - name: Install R Dependencies (renv)
         uses: r-lib/actions/setup-renv@v2
@@ -34,12 +34,12 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: ./docs  # Ensure the output matches the updated Quarto directory
-          path: ./        # Specify the Quarto project root directory (replace 'project' with 'path')
+          target: docs  # Ensure this matches your Quarto output directory
+          path: ./      # Ensure this points to the root of your Quarto project
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Verify Output Files
         run: |
           echo "Listing generated files in the 'docs' directory:"
-          ls -la docs     # Ensure the correct directory and files are present
+          ls -la docs
